@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import '../widgets/authcard.dart';
 
+//This is the home and login screen
 
 class AuthScreen extends StatelessWidget {
   @override
