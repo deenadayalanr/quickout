@@ -52,6 +52,7 @@ app.get('/users', async (req,res,next)=>{
 })
 
 async function main(){
+    //db credentials
     db = await mysql.createConnection({
         host: "127.0.0.1",
         port: "3307",
